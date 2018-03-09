@@ -1,0 +1,125 @@
+body.login {
+  background: transparent;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+body.login div#login {
+  background-color: rgba(0, 0, 0, .70);
+  padding: 40px 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: -3px 7px 35px 1px rgba(0,0,0,.8);
+  box-shadow: -3px 7px 35px 1px rgba(0,0,0,.8);
+}
+
+@media screen and (min-width:768px) {
+  body.login div#login {
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 330px;
+  }
+}
+
+body.login div#login h1 {}
+
+@media screen and (min-width: 768px) {
+  body.login div#login h1 {
+    display: inline-block;
+    margin-top: 50px;
+    width: 50%;
+  }
+}
+
+body.login div#login h1 a {
+  background-image: url(../img/logo.svg);
+  height: 150px;
+  background-size: 50%;
+  width: 100%;
+  margin: 0;
+
+}
+body.login div#login form#loginform {
+
+    float: right;
+  }
+body.login div#login form#loginform p {
+  color: #000000;
+}
+body.login div#login form#loginform p label {
+  color: #000000;
+}
+body.login div#login form#loginform input {
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {
+  margin-top: 7px;
+}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {
+  background-color: #000000;
+  border: none;
+  text-transform: uppercase;
+  padding: 5px 40px;
+  height: auto;
+  box-shadow: none;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit:focus {
+  text-shadow: none;
+}
+body.login div#login p#nav {
+  text-align: center;
+}
+
+@media screen and (min-width:768px)
+{
+  body.login div#login p#nav {
+    display: inline;
+  }
+}
+body.login div#login p#nav a {
+  color: #ffffff;
+}
+body.login div#login p#backtoblog {
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+  body.login div#login p#backtoblog {
+    display: inline;
+    float: right;
+    margin: 0;
+  }
+}
+body.login div#login p#backtoblog a {
+  color: #ffffff;
+}
+#login_error {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.grupo {
+  margin-bottom: 20px;
+}
+
+.grupo::after {
+  visibility: hidden;
+  display: block;
+  content: '';
+  clear: both;
+  height: 0;
+}
