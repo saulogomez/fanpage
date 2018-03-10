@@ -27,8 +27,8 @@ function lapizzeria_agregar_recaptcha() { ?>
 
  function  lapizzeria_custom_logo(){
    $logo= array(
-     'height'=>90,
-     'width' =>90
+     'width' =>150,
+     'height'=>45
    );
    add_theme_support( 'custom-logo', $logo);
  }

@@ -96,12 +96,17 @@ header.encabezado-sitio{
   padding-bottom: 30px;
 }
 
-div.logo{
+div.logo {
+  margin-top: 0px;
   text-align: center;
 }
 
 img.logotipo{
   width: 250px;
+}
+
+div.logo .custom-logo {
+  margin-top: 20px;
 }
 
 @media only screen and (min-width: 768px){
@@ -151,7 +156,8 @@ nav.sociales ul {
 
 div.direccion {
   clear: both;
-  padding-top: 10px;
+  padding-top: 0px;
+
 }
 
 div.direccion p {
@@ -164,6 +170,11 @@ div.direccion p {
   div.direccion p {
     text-align: right;
   }
+}
+
+nav.sociales ul {
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 nav.sociales ul li {
